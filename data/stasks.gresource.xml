@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com/ixsvf/stasks">
+    <file>scripts/install_update_github_desktop.sh</file>
+    <file>icons/scalable/apps/com.ixsvf.stasks.svg</file>
+  </gresource>
+</gresources>

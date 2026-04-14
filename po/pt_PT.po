@@ -1,0 +1,72 @@
+# Portuguese translations for stasks package.
+# Copyright (C) 2026 THE stasks'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the stasks package.
+# Ivo Xavier <ivofernandes12@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: stasks\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-14 14:57+0100\n"
+"PO-Revision-Date: 2026-04-14 15:06+0100\n"
+"Last-Translator: Ivo Xavier <ivofernandes12@gmail.com>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/window.vala:53
+msgid "No Tasks Found"
+msgstr "Nenhuma tarefa encontrada"
+
+#: src/window.vala:54
+msgid "Click the '+' button to add your first script."
+msgstr "Clique no botão '+' para adicionar o seu primeiro script."
+
+#: src/window.vala:59
+msgid "Execution Console"
+msgstr "Console de execução"
+
+#: src/window.vala:127
+msgid "Delete script"
+msgstr "Eliminar script"
+
+#: src/window.vala:137
+msgid "Run now"
+msgstr "Executar agora"
+
+#: src/window.vala:159
+#, c-format
+msgid "Task '%s' deleted."
+msgstr "Tarefa '%s' eliminada."
+
+#: src/window.vala:178
+#, c-format
+msgid "Warning: Could not extract defaults: %s\n"
+msgstr "Aviso: Não foi possível extrair os valores padrão: %s\n"
+
+#: src/window.vala:201
+#, c-format
+msgid "'%s' executed!"
+msgstr "'%s' executado!"
+
+#: src/window.vala:256
+msgid "Script Name"
+msgstr "Nome do script"
+
+#: src/window.vala:271
+msgid "Edit: "
+msgstr "Editar: "
+
+#: src/window.vala:280
+msgid "New Task"
+msgstr "Nova tarefa"
+
+#: data/com.ixsvf.stasks.desktop:3
+msgid "sTasks"
+msgstr "sTasks"
+
+#: data/com.ixsvf.stasks.desktop:4
+msgid "Script Manager"
+msgstr "Gestor de scripts"

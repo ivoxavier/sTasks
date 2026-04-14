@@ -1,0 +1,19 @@
+Source: stasks
+Section: utils
+Priority: optional
+Maintainer: Ivo Xavier <ivofernandes12@gmail.com>
+Build-Depends: debhelper-compat (= 13),
+               meson,
+               ninja-build,
+               valac,
+               libgtk-4-dev,
+               libadwaita-1-dev
+Standards-Version: 4.6.2
+Homepage: https://github.com/ivoxavier/sTasks
+
+Package: stasks
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Task manager in shell script
+ sTasks is a GTK4 graphical interface for running
+ system scripts and automating daily tasks.

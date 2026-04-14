@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=sTasks
+Comment=Script Manager
+Exec=stasks
+Icon=com.ixsvf.stasks
+Terminal=false
+Type=Application
+Categories=Utility;
+StartupNotify=true

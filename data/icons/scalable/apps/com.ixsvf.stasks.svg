@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="100%" height="100%">
+  <defs>
+    <linearGradient id="yaruGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E95420" />
+      <stop offset="100%" stop-color="#77216F" />
+    </linearGradient>
+    
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect x="12" y="12" width="104" height="104" rx="28" fill="url(#yaruGradient)" filter="url(#shadow)"/>
+  
+  <rect x="12" y="12" width="104" height="104" rx="28" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+
+  <g fill="#ffffff">
+    <rect x="32" y="34" width="14" height="14" rx="3" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M 35 41 L 38 44 L 45 35" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="58" y="39" width="38" height="4" rx="2" />
+
+    <rect x="32" y="56" width="14" height="14" rx="3" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-width="2"/>
+    <path d="M 35 63 L 38 66 L 45 57" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="58" y="61" width="38" height="4" rx="2" />
+
+    <rect x="32" y="78" width="14" height="14" rx="3" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <rect x="58" y="83" width="14" height="4" rx="2" />
+    
+    <path d="M 80 78 L 86 83 L 80 88" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="88" y="87" width="8" height="2.5" rx="1" />
+  </g>
+</svg>
