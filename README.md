@@ -17,6 +17,21 @@ To build sTasks from source, you will need:
 
 ---
 
+One of the best ways to contribute is by adding new useful automation scripts to the default collection.
+
+### 1. Create the script file
+Add your shell script to the `data/scripts/` directory.
+
+* **Naming:** Use `snake_case` (e.g., `update_flatpaks.sh`).
+* **Header:** Ensure the file starts with `#!/bin/bash`.
+
+### 2. Register in GResources
+For the application to "see" and extract the script on the first run, you must add it to the resource manifest. 
+Open `data/stasks.gresource.xml` and add a new line inside the `<gresource>` tag:
+
+```xml
+<file>scripts/your_new_script.sh</file>
+
 ## Building and Running
 
 ```bash
